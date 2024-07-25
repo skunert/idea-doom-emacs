@@ -190,8 +190,15 @@ let g:WhichKeyDesc_file_leader = '<leader>f +file'
 map <Leader>fc <Action>(NewEditorConfigFile)
 let g:WhichKeyDesc_open_project_editorconfig = '<leader>fc Open project editorconfig'
 " Find file
-map <Leader>ff <Action>(SearchEverywhere)
+map <Leader>ff <Action>(GotoFile)
 let g:WhichKeyDesc_find_file2 = '<leader>ff Find file'
+
+" Go to symbol
+map <Leader>cS <Action>(GotoSymbol)
+let g:WhichKeyDesc_goto_symbol = '<leader>cS Go to symbol'
+" Jumplist
+map <Leader>fj <Action>(RecentLocations)
+let g:WhichKeyDesc_recent_locations = '<leader>fj Recent locations'
 " Recent files
 map <Leader>fr <Action>(RecentFiles)
 let g:WhichKeyDesc_recent_files = '<leader>fr Recent files'
