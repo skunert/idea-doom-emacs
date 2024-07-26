@@ -196,6 +196,9 @@ let g:WhichKeyDesc_find_file2 = '<leader>ff Find file'
 " Go to symbol
 map <Leader>cS <Action>(GotoSymbol)
 let g:WhichKeyDesc_goto_symbol = '<leader>cS Go to symbol'
+" Go to file symbol
+map <Leader>cs <Action>(FileStructurePopup)
+let g:WhichKeyDesc_goto_symbol = '<leader>cs Go to file symbol'
 " Jumplist
 map <Leader>fj <Action>(RecentLocations)
 let g:WhichKeyDesc_recent_locations = '<leader>fj Recent locations'
