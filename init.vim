@@ -309,6 +309,17 @@ let g:WhichKeyDesc_reload_ideavim_config = '<leader>hr Reload IdeaVim config'
 map <Leader>ht <Action>(ChangeLaf)
 let g:WhichKeyDesc_change_theme = '<leader>ht Change theme'
 
+"
+" +refactor
+
+let g:WhichKeyDesc_help_leader = '<leader>r +refactor'
+" Inline
+map <Leader>ri <Action>(Inline)
+let g:WhichKeyDesc_inline = '<leader>ri Inline'
+" Refactor This
+map <Leader>rr <Action>(Refactorings.QuickListPopupAction)
+let g:WhichKeyDesc_refactor_this = '<leader>rr Refactor This'
+
 
 "
 " +insert
