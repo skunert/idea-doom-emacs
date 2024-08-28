@@ -263,6 +263,9 @@ let g:WhichKeyDesc_fetch = '<leader>gF Fetch'
 " Git stage file
 map <Leader>gS <Action>(Git.Add)
 let g:WhichKeyDesc_git_stage_file = '<leader>gS Git stage file'
+" Copy GitHub link
+map <Leader>gL <Action>(uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction)
+let g:WhichKeyDesc_git_hub_copy_link = '<leader>gL Copy GitHub link'
 
 " +create
 let g:WhichKeyDesc_git_create_leader = '<leader>gc +create'
