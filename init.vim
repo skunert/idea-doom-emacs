@@ -2,7 +2,7 @@
 
 let mapleader = " "
 
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 set commentary
 set history
 set ignorecase
@@ -17,6 +17,7 @@ set wrapscan
 set ideajoin=true
 set idearefactormode=visual
 set ideavimsupport=
+set NERDTree
 
 
 " evil-escape
@@ -76,9 +77,9 @@ inoremap <A-f> <Esc>:action EditorNextWord<CR>a
 " Search project
 map <Leader>/ <Action>(FindInPath)
 let g:WhichKeyDesc_search_project1 = '<leader>/ Search project'
-" Find file
-map <Leader>. <Action>(SearchEverywhere)
-let g:WhichKeyDesc_find_file1 = '<leader>. Find file'
+" Navigation Bar
+map <Leader>. <Action>(ShowNavBar)
+let g:WhichKeyDesc_navigation_bar = '<leader>. Navigation Bar'
 " Jump to bookmark
 map <Leader><CR> <Action>(Bookmarks)
 let g:WhichKeyDesc_jump_to_bookmark = '<leader>⏎ Jump to bookmark'
